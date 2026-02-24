@@ -1,0 +1,52 @@
+{
+  "config": {
+    "max_steps": 200,
+    "n_trials": 20000,
+    "p_base": 0.05,
+    "p_cycle": 0.02
+  },
+  "models": {
+    "E1_base": {
+      "avg_steps_to_base": 19.9092,
+      "avg_steps_to_cycle": null,
+      "avg_steps_to_timeout": null,
+      "counts": {
+        "base": 20000,
+        "cycle": 0,
+        "timeout": 0
+      },
+      "cycle_rate": 0.0,
+      "n_trials": 20000,
+      "terminate_rate": 1.0,
+      "timeout_rate": 0.0
+    },
+    "E2_regress": {
+      "avg_steps_to_base": null,
+      "avg_steps_to_cycle": null,
+      "avg_steps_to_timeout": 200.0,
+      "counts": {
+        "base": 0,
+        "cycle": 0,
+        "timeout": 20000
+      },
+      "cycle_rate": 0.0,
+      "n_trials": 20000,
+      "terminate_rate": 0.0,
+      "timeout_rate": 1.0
+    },
+    "E3_cycle": {
+      "avg_steps_to_base": null,
+      "avg_steps_to_cycle": 46.35869951739903,
+      "avg_steps_to_timeout": 200.0,
+      "counts": {
+        "base": 0,
+        "cycle": 19685,
+        "timeout": 315
+      },
+      "cycle_rate": 0.98425,
+      "n_trials": 20000,
+      "terminate_rate": 0.0,
+      "timeout_rate": 0.01575
+    }
+  }
+}

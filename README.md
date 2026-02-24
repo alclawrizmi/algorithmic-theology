@@ -19,3 +19,8 @@ Method:
 - Prefer boolean/binary representability where possible.
 - Use uncomputability/complexity limits as diagnostics, not automatic victories.
 - Use Kalām elimination: enumerate candidates, prune by explicit invariants, report survivors and uncertainty.
+
+## Tests completed
+
+- 2026-02-24 — Termination proofs / well‑founded recursion → cosmological base case: didactic simulation of base-case vs regress vs cycle.
+  Result: Base cases terminate; regress does not; cycles are non-grounding (confidence: medium).
