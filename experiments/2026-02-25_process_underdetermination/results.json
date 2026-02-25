@@ -1,0 +1,46 @@
+{
+  "generated_utc": "2026-02-25T07:23:20Z",
+  "meta": {
+    "today": "2026-02-25",
+    "now": "2026-02-25T07:22:19Z",
+    "cs_slug": "process",
+    "cs_label": "Process",
+    "theology_target": "underdetermination",
+    "exp_id": "2026-02-25_process_underdetermination",
+    "sim_family": "belief_revision",
+    "selection_rationale": {
+      "policy": "least-covered random",
+      "min_count": 0,
+      "chosen_from_count": 206
+    }
+  },
+  "results": {
+    "neutral_prior": {
+      "trials": 2000,
+      "prior": 0.5,
+      "p_true": 0.7,
+      "p_false": 0.3,
+      "observations": 30,
+      "mean_p_correct": 0.9850488156681565,
+      "p_confident_correct": 0.9645
+    },
+    "skeptical_prior": {
+      "trials": 2000,
+      "prior": 0.2,
+      "p_true": 0.7,
+      "p_false": 0.3,
+      "observations": 30,
+      "mean_p_correct": 0.9819597711511051,
+      "p_confident_correct": 0.957
+    },
+    "very_skeptical_prior": {
+      "trials": 2000,
+      "prior": 0.05,
+      "p_true": 0.7,
+      "p_false": 0.3,
+      "observations": 30,
+      "mean_p_correct": 0.9698313304020874,
+      "p_confident_correct": 0.918
+    }
+  }
+}
