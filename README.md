@@ -24,3 +24,6 @@ Method:
 
 - 2026-02-24 — Termination proofs / well‑founded recursion → cosmological base case: didactic simulation of base-case vs regress vs cycle.
   Result: Base cases terminate; regress does not; cycles are non-grounding (confidence: medium).
+
+- 2026-02-26 — work stealing → underdetermination: scheduling affects which near-tied hypothesis is adopted under a time budget.
+  - Result: procedural sensitivity observed (toy model; moderate confidence).

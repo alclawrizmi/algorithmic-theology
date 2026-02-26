@@ -1,0 +1,39 @@
+{
+  "config": {
+    "H": 400,
+    "T": 25.0,
+    "W": 8,
+    "epsilon": 0.01,
+    "seed": 260226,
+    "trials": 2000
+  },
+  "results": {
+    "fifo": {
+      "avg_acceptable_count": 1.9665,
+      "avg_coverage_skew": 0.3859877493652135,
+      "avg_evaluated": 94.7735,
+      "trials": 2000,
+      "winner_entropy_bits": 6.3880582462570725,
+      "winner_gini": 0.35025490196078435,
+      "winner_support": 102
+    },
+    "local_no_steal": {
+      "avg_acceptable_count": 1.947,
+      "avg_coverage_skew": 0.3817357265585877,
+      "avg_evaluated": 94.6085,
+      "trials": 2000,
+      "winner_entropy_bits": 6.400010527536997,
+      "winner_gini": 0.3400686274509803,
+      "winner_support": 102
+    },
+    "work_steal": {
+      "avg_acceptable_count": 1.926,
+      "avg_coverage_skew": 0.3880380909971058,
+      "avg_evaluated": 94.415,
+      "trials": 2000,
+      "winner_entropy_bits": 6.410639368879792,
+      "winner_gini": 0.31515000000000004,
+      "winner_support": 100
+    }
+  }
+}
