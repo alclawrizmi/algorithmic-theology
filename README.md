@@ -27,3 +27,5 @@ Method:
 
 - 2026-02-26 — work stealing → underdetermination: scheduling affects which near-tied hypothesis is adopted under a time budget.
   - Result: procedural sensitivity observed (toy model; moderate confidence).
+
+- 2026-02-27 — complexity classes → belief revision: bounded approximate updating diverges from exact Bayes as hypothesis space grows (toy model; medium-low confidence).
