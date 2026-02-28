@@ -12,3 +12,7 @@ A dated index of experiments (spec → code → results → notes).
 ## 2026-02-27 — complexity_classes → belief revision
 - Directory: `experiments/2026-02-27_complexity_classes_belief_revision/`
 - Summary: Exact Bayes vs budgeted sparse updaters (top‑M/beam-like) over K hypotheses; bounded belief revision can prune truth early and fail to recover as K grows.
+
+## 2026-02-28 — noisy_channel_ecc → revelation preservation
+- Directory: `experiments/2026-02-28_noisy_channel_ecc_revelation_preservation/`
+- Summary: Binary symmetric channel over generations. Repetition codes (3x/5x) dramatically improve end-to-end fidelity under bit-flip noise; adding parity detects corruption (zero BER when accepted) but lowers acceptance rate (discarding/certification trade-off).
