@@ -3,7 +3,7 @@
     "cs_slug": "noisy_channel_ecc",
     "cs_master_label": "Noisy channel + error-correcting codes",
     "theology_target": "revelation preservation",
-    "timestamp_utc": "2026-02-28T20:03:28Z",
+    "timestamp_utc": "2026-02-28T20:28:25Z",
     "note": "Toy simulation: redundancy + verification can preserve messages under noise; not a manuscript-history model."
   },
   "base": {
