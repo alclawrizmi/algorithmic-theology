@@ -16,3 +16,7 @@ A dated index of experiments (spec → code → results → notes).
 ## 2026-02-28 — noisy_channel_ecc → revelation preservation
 - Directory: `experiments/2026-02-28_noisy_channel_ecc_revelation_preservation/`
 - Summary: Binary symmetric channel over generations. Repetition codes (3x/5x) dramatically improve end-to-end fidelity under bit-flip noise; adding parity detects corruption (zero BER when accepted) but lowers acceptance rate (discarding/certification trade-off).
+
+## 2026-03-01 — property_based_testing → belief revision
+- Directory: `experiments/2026-03-01_property_based_testing_belief_revision/`
+- Summary: Property-based test harness over randomized evidence streams. Exact Bayes satisfies coherence + order-invariance + neutrality under uninformative evidence; greedy MAP collapse frequently violates order-invariance and always collapses under neutral evidence (tie-break artifact), illustrating how update procedures can manufacture certainty.

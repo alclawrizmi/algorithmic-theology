@@ -29,3 +29,5 @@ Method:
   - Result: procedural sensitivity observed (toy model; moderate confidence).
 
 - 2026-02-27 — complexity classes → belief revision: bounded approximate updating diverges from exact Bayes as hypothesis space grows (toy model; medium-low confidence).
+
+- 2026-03-01 — property-based testing → belief revision: randomized invariant checks flag greedy MAP collapse as order-sensitive and prone to spurious certainty under uninformative evidence; Bayes-style updates pass these invariants (toy model; medium confidence).

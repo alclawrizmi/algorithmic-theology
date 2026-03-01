@@ -1,0 +1,48 @@
+{
+  "notes": {
+    "interpretation_hint": "Higher order-invariance violations suggest procedural sensitivity to evidence ordering.",
+    "tolerance": {
+      "coherence_sum_tol": 1e-06,
+      "order_invariance_l1": 1e-06
+    }
+  },
+  "tests": [
+    {
+      "L": 40,
+      "N": 2000,
+      "coherence_violation_rate": 0.0,
+      "neutral_evidence_violation_rate": 0.0,
+      "order_invariance_l1_max": 1.1102230246251565e-15,
+      "order_invariance_l1_mean": 3.0299070544193008e-16,
+      "order_invariance_violation_rate": 0.0,
+      "updater": "bayes_exact"
+    },
+    {
+      "L": 40,
+      "N": 2000,
+      "coherence_violation_rate": 0.0,
+      "neutral_evidence_violation_rate": 1.0,
+      "order_invariance_l1_max": 2.0,
+      "order_invariance_l1_mean": 0.97,
+      "order_invariance_violation_rate": 0.485,
+      "updater": "greedy_map_collapse"
+    },
+    {
+      "L": 40,
+      "N": 2000,
+      "coherence_violation_rate": 0.0,
+      "neutral_evidence_violation_rate": 0.0,
+      "order_invariance_l1_max": 1.887379141862766e-15,
+      "order_invariance_l1_mean": 4.468057868134423e-16,
+      "order_invariance_violation_rate": 0.0,
+      "updater": "tempered_bayes_cap_0.7"
+    }
+  ],
+  "world": {
+    "ps": [
+      0.55,
+      0.5,
+      0.45
+    ]
+  }
+}
