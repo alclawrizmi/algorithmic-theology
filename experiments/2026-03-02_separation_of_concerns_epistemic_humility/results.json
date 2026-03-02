@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "date_utc": "2026-03-02T15:27:54Z",
+    "experiment_id": "2026-03-02_separation_of_concerns_epistemic_humility",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "shift_test_spurious_corr": 0.1,
+    "train_spurious_corr": 0.9
+  },
+  "runs": [
+    {
+      "models": [
+        {
+          "name": "E1_monolith",
+          "shift_test": {
+            "accuracy": 0.7346,
+            "brier": 0.18695201953785492,
+            "ece": 0.10615702068850223,
+            "mean_confidence_on_errors": 0.7615917016111995
+          },
+          "train": {
+            "accuracy": 0.877,
+            "brier": 0.08748759436039885,
+            "ece": 0.01704998730268815
+          }
+        },
+        {
+          "name": "E2_separated_concerns",
+          "shift_test": {
+            "accuracy": 0.8394,
+            "brier": 0.11470411277466042,
+            "ece": 0.02367135059389537,
+            "mean_confidence_on_errors": 0.707289677392369
+          },
+          "train": {
+            "accuracy": 0.8312,
+            "brier": 0.11703783414647272,
+            "ece": 0.020625345070409987
+          }
+        },
+        {
+          "name": "E3_monolith_temp_scaled",
+          "shift_test": {
+            "accuracy": 0.7346,
+            "brier": 0.18695201953785492,
+            "ece": 0.10615702068850223,
+            "mean_confidence_on_errors": 0.7615917016111995
+          },
+          "train": {
+            "accuracy": 0.877,
+            "brier": 0.08748759436039885,
+            "ece": 0.01704998730268815
+          }
+        }
+      ],
+      "seed": 0,
+      "temperatures": {
+        "mono_best_T": 1.0,
+        "mono_best_train_ece": 0.01704998730268815
+      },
+      "weights": {
+        "monolith": {
+          "bias": 0.20914012309737123,
+          "xc": 2.2259967988741436,
+          "xs": 0.8215074118867083
+        },
+        "separated": {
+          "bias": 0.17123715516625723,
+          "xc": 1.9691179490299908,
+          "xs_forced_zero": -0.023533880382419898
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "name": "E1_monolith",
+          "shift_test": {
+            "accuracy": 0.7288,
+            "brier": 0.19030117159143747,
+            "ece": 0.07851029107059561,
+            "mean_confidence_on_errors": 0.7403932899094136
+          },
+          "train": {
+            "accuracy": 0.884,
+            "brier": 0.087724937396374,
+            "ece": 0.018092412056626053
+          }
+        },
+        {
+          "name": "E2_separated_concerns",
+          "shift_test": {
+            "accuracy": 0.8356,
+            "brier": 0.11776587967866663,
+            "ece": 0.022496962964263748,
+            "mean_confidence_on_errors": 0.7308044481046112
+          },
+          "train": {
+            "accuracy": 0.837,
+            "brier": 0.1145822500408386,
+            "ece": 0.023116065562925017
+          }
+        },
+        {
+          "name": "E3_monolith_temp_scaled",
+          "shift_test": {
+            "accuracy": 0.7288,
+            "brier": 0.19321147740797667,
+            "ece": 0.09363332218801114,
+            "mean_confidence_on_errors": 0.7557362408320135
+          },
+          "train": {
+            "accuracy": 0.884,
+            "brier": 0.08745542024812948,
+            "ece": 0.013085231811472635
+          }
+        }
+      ],
+      "seed": 1,
+      "temperatures": {
+        "mono_best_T": 0.9,
+        "mono_best_train_ece": 0.013085231811472635
+      },
+      "weights": {
+        "monolith": {
+          "bias": -0.007558964330614119,
+          "xc": 1.8739977155211704,
+          "xs": 0.7607443387963575
+        },
+        "separated": {
+          "bias": -0.13386053586417102,
+          "xc": 2.265819692231634,
+          "xs_forced_zero": -0.018810073573919874
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "name": "E1_monolith",
+          "shift_test": {
+            "accuracy": 0.6878,
+            "brier": 0.2242223069802547,
+            "ece": 0.1397113763288779,
+            "mean_confidence_on_errors": 0.7745250407423186
+          },
+          "train": {
+            "accuracy": 0.8872,
+            "brier": 0.08447136304672125,
+            "ece": 0.017695680828841136
+          }
+        },
+        {
+          "name": "E2_separated_concerns",
+          "shift_test": {
+            "accuracy": 0.8386,
+            "brier": 0.11260850816099051,
+            "ece": 0.008451168862244137,
+            "mean_confidence_on_errors": 0.7020061079736428
+          },
+          "train": {
+            "accuracy": 0.8362,
+            "brier": 0.11720972221306049,
+            "ece": 0.012438781231742541
+          }
+        },
+        {
+          "name": "E3_monolith_temp_scaled",
+          "shift_test": {
+            "accuracy": 0.6878,
+            "brier": 0.2242223069802547,
+            "ece": 0.13971137632887787,
+            "mean_confidence_on_errors": 0.7745250407423186
+          },
+          "train": {
+            "accuracy": 0.8872,
+            "brier": 0.08447136304672125,
+            "ece": 0.017695680828841133
+          }
+        }
+      ],
+      "seed": 2,
+      "temperatures": {
+        "mono_best_T": 1.0,
+        "mono_best_train_ece": 0.017695680828841133
+      },
+      "weights": {
+        "monolith": {
+          "bias": -0.22459746659948474,
+          "xc": 2.1652989199193806,
+          "xs": 1.1359744802127758
+        },
+        "separated": {
+          "bias": -0.07112634645023883,
+          "xc": 2.0005650322849693,
+          "xs_forced_zero": 0.053420423382306494
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "name": "E1_monolith",
+          "shift_test": {
+            "accuracy": 0.6358,
+            "brier": 0.25707153855293463,
+            "ece": 0.1786405805944666,
+            "mean_confidence_on_errors": 0.7747799948657768
+          },
+          "train": {
+            "accuracy": 0.8874,
+            "brier": 0.08219328270429138,
+            "ece": 0.01637088032870821
+          }
+        },
+        {
+          "name": "E2_separated_concerns",
+          "shift_test": {
+            "accuracy": 0.8376,
+            "brier": 0.11356676820838045,
+            "ece": 0.016495318027207072,
+            "mean_confidence_on_errors": 0.7085741377587385
+          },
+          "train": {
+            "accuracy": 0.8398,
+            "brier": 0.11308640807002926,
+            "ece": 0.021118521236227133
+          }
+        },
+        {
+          "name": "E3_monolith_temp_scaled",
+          "shift_test": {
+            "accuracy": 0.6358,
+            "brier": 0.25707153855293463,
+            "ece": 0.1786405805944666,
+            "mean_confidence_on_errors": 0.7747799948657768
+          },
+          "train": {
+            "accuracy": 0.8874,
+            "brier": 0.08219328270429138,
+            "ece": 0.01637088032870821
+          }
+        }
+      ],
+      "seed": 3,
+      "temperatures": {
+        "mono_best_T": 1.0,
+        "mono_best_train_ece": 0.01637088032870821
+      },
+      "weights": {
+        "monolith": {
+          "bias": -0.1768407838632246,
+          "xc": 1.90986060379477,
+          "xs": 1.2520534670240429
+        },
+        "separated": {
+          "bias": 0.1448049937995065,
+          "xc": 2.033205128290356,
+          "xs_forced_zero": -0.0027082450475185826
+        }
+      }
+    },
+    {
+      "models": [
+        {
+          "name": "E1_monolith",
+          "shift_test": {
+            "accuracy": 0.6164,
+            "brier": 0.2800942190147605,
+            "ece": 0.2139157576937169,
+            "mean_confidence_on_errors": 0.7992475712229158
+          },
+          "train": {
+            "accuracy": 0.8812,
+            "brier": 0.08719649297419074,
+            "ece": 0.024179887307025097
+          }
+        },
+        {
+          "name": "E2_separated_concerns",
+          "shift_test": {
+            "accuracy": 0.8402,
+            "brier": 0.11471933027965049,
+            "ece": 0.01476779120581614,
+            "mean_confidence_on_errors": 0.7230981277643201
+          },
+          "train": {
+            "accuracy": 0.8368,
+            "brier": 0.11348064806071388,
+            "ece": 0.01983549414042906
+          }
+        },
+        {
+          "name": "E3_monolith_temp_scaled",
+          "shift_test": {
+            "accuracy": 0.6164,
+            "brier": 0.268792071479924,
+            "ece": 0.18796562318508414,
+            "mean_confidence_on_errors": 0.7725927372073015
+          },
+          "train": {
+            "accuracy": 0.8812,
+            "brier": 0.08664147897700439,
+            "ece": 0.017585983519984194
+          }
+        }
+      ],
+      "seed": 4,
+      "temperatures": {
+        "mono_best_T": 1.2,
+        "mono_best_train_ece": 0.017585983519984194
+      },
+      "weights": {
+        "monolith": {
+          "bias": -0.20125011722219108,
+          "xc": 2.0866323448508237,
+          "xs": 1.5111133759206696
+        },
+        "separated": {
+          "bias": 0.11005394428141517,
+          "xc": 2.121837062586824,
+          "xs_forced_zero": 0.02731422494701998
+        }
+      }
+    }
+  ],
+  "summary": {
+    "models": {
+      "E1_monolith": {
+        "shift_test": {
+          "accuracy": 0.6806800000000001,
+          "brier": 0.22772825113544845,
+          "ece": 0.14338700527523188,
+          "mean_confidence_on_errors": 0.7701075196703248
+        },
+        "train": {
+          "accuracy": 0.88336,
+          "brier": 0.08581473409639526,
+          "ece": 0.018677769564777732
+        }
+      },
+      "E2_separated_concerns": {
+        "shift_test": {
+          "accuracy": 0.8382800000000001,
+          "brier": 0.1146729198204697,
+          "ece": 0.017176518330685293,
+          "mean_confidence_on_errors": 0.7143544997987364
+        },
+        "train": {
+          "accuracy": 0.8362,
+          "brier": 0.115079372506223,
+          "ece": 0.01942684144834675
+        }
+      },
+      "E3_monolith_temp_scaled": {
+        "shift_test": {
+          "accuracy": 0.6806800000000001,
+          "brier": 0.226049882791789,
+          "ece": 0.1412215845969884,
+          "mean_confidence_on_errors": 0.767845143051722
+        },
+        "train": {
+          "accuracy": 0.88336,
+          "brier": 0.08564982786730908,
+          "ece": 0.01635755275833887
+        }
+      }
+    },
+    "temperatures": {
+      "mono_best_T_avg": 1.02
+    }
+  }
+}

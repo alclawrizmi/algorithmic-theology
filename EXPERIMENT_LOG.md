@@ -20,3 +20,7 @@ A dated index of experiments (spec → code → results → notes).
 ## 2026-03-01 — property_based_testing → belief revision
 - Directory: `experiments/2026-03-01_property_based_testing_belief_revision/`
 - Summary: Property-based test harness over randomized evidence streams. Exact Bayes satisfies coherence + order-invariance + neutrality under uninformative evidence; greedy MAP collapse frequently violates order-invariance and always collapses under neutral evidence (tie-break artifact), illustrating how update procedures can manufacture certainty.
+
+## 2026-03-02 — separation_of_concerns → epistemic humility
+- Directory: `experiments/2026-03-02_separation_of_concerns_epistemic_humility/`
+- Summary: Two-signal world (causal + spurious). Monolithic learner looks great in-training but becomes overconfident under distribution shift when the spurious correlation flips. A separated-concerns design that forbids the spurious channel improves calibration (ECE/Brier) and shift accuracy, operationalizing “humility” as an architectural constraint.

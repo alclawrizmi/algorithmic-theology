@@ -31,3 +31,5 @@ Method:
 - 2026-02-27 — complexity classes → belief revision: bounded approximate updating diverges from exact Bayes as hypothesis space grows (toy model; medium-low confidence).
 
 - 2026-03-01 — property-based testing → belief revision: randomized invariant checks flag greedy MAP collapse as order-sensitive and prone to spurious certainty under uninformative evidence; Bayes-style updates pass these invariants (toy model; medium confidence).
+
+- 2026-03-02 — separation of concerns → epistemic humility: monolithic inference couples to spurious signals and becomes overconfident under distribution shift; enforcing an interface that blocks the spurious channel improves shift accuracy and calibration (toy model; moderate confidence).
