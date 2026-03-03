@@ -24,3 +24,6 @@ A dated index of experiments (spec → code → results → notes).
 ## 2026-03-02 — separation_of_concerns → epistemic humility
 - Directory: `experiments/2026-03-02_separation_of_concerns_epistemic_humility/`
 - Summary: Two-signal world (causal + spurious). Monolithic learner looks great in-training but becomes overconfident under distribution shift when the spurious correlation flips. A separated-concerns design that forbids the spurious channel improves calibration (ECE/Brier) and shift accuracy, operationalizing “humility” as an architectural constraint.
+
+- 2026-03-03 — CAP tension → grounding and dependence: partitioned replicas diverge on grounding reachability; availability-first answers induce false certainty; consistency-first withholds disputed queries. (toy model; moderate confidence)
+  - 2026-03-03_cap_tension_grounding_and_dependence

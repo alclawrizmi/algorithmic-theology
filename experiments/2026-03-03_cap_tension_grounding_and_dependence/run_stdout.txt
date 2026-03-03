@@ -1,0 +1,19 @@
+{
+  "AP": {
+    "accuracy_vs_objective": 0.856,
+    "availability": 1.0,
+    "false_certainty_rate": 0.1555
+  },
+  "CP": {
+    "accuracy_vs_objective": 0.9230313795145056,
+    "availability": 0.8445
+  },
+  "params": {
+    "EDGE_P": 0.08,
+    "FLIPS_DURING_PARTITION": 40,
+    "N": 30,
+    "Q": 2000
+  },
+  "replica_disagreement_rate": 0.1555,
+  "seed": 0
+}
