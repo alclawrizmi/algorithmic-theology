@@ -27,3 +27,9 @@ A dated index of experiments (spec → code → results → notes).
 
 - 2026-03-03 — CAP tension → grounding and dependence: partitioned replicas diverge on grounding reachability; availability-first answers induce false certainty; consistency-first withholds disputed queries. (toy model; moderate confidence)
   - 2026-03-03_cap_tension_grounding_and_dependence
+
+- **2026-03-04 (UTC)** — `experiments/2026-03-04_gradient_methods_epistemic_humility/`
+  - P: Non-convex / multi-modal landscapes make single-answer procedures overconfident; humility tracks uncertainty.
+  - CS: Gradient methods
+  - Result: Multi-start GD reaches distinct basins; tempered humility refuses to collapse when spread is high (moderate confidence).
+  - Notes: `experiments/2026-03-04_gradient_methods_epistemic_humility/notes.md`

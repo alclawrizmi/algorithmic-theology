@@ -36,3 +36,6 @@ Method:
 
 - 2026-03-03 — CAP tension → grounding and dependence: under partition, always-answer policies create false certainty; consistency-first requires UNKNOWNs.
   - Result: CAP-style tradeoff observed (moderate confidence).
+
+- 2026-03-04 — gradient methods → epistemic humility: multi-start gradient descent reveals initialization sensitivity and reachable alternative explanations.
+  - Result: Distinct basins reachable; humility policy returns UNKNOWN when ensemble spread is high (moderate confidence).
