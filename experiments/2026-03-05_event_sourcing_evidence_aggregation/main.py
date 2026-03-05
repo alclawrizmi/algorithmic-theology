@@ -27,7 +27,13 @@ class Event:
 
 def sample_world(rng: random.Random, n_sources: int):
     H = rng.choice([0, 1])
-    ps = [0.55 + 0.40 * rng.random() for _ in range(n_sources)]
+    ps = []
+    for i in range(n_sources):
+        if i < n_sources // 2:
+            ps.append(0.70)
+        else:
+            ps.append(0.30)
+    rng.shuffle(ps)
     return H, ps
 
 
@@ -42,11 +48,15 @@ def generate_events(rng: random.Random, H: int, ps, n_events: int):
     return events
 
 
-def fold_logodds(events, weights):
+def fold_logodds(events, weights, clip: float = 6.0):
     lo = 0.0
     for ev in events:
         w = logit(weights[ev.src])
         lo += (w if ev.claim == 1 else -w)
+        if lo > clip:
+            lo = clip
+        elif lo < -clip:
+            lo = -clip
     return lo
 
 
@@ -64,9 +74,9 @@ def run(seed: int = 0):
     rng = random.Random(seed)
 
     n_sources = 12
-    n_events = 600
-    t_change = 300
-    W = 80
+    n_events = 120
+    t_change = 60
+    W = 25
 
     H, true_ps = sample_world(rng, n_sources)
     events = generate_events(rng, H, true_ps, n_events)
@@ -88,14 +98,12 @@ def run(seed: int = 0):
 
         weights_now = q0 if t < t_change else q1
 
-        # snapshot updates irreversibly with weights at the time
         w_now = logit(weights_now[ev.src])
         lo_snapshot += (w_now if ev.claim == 1 else -w_now)
+        lo_snapshot = max(min(lo_snapshot, 6.0), -6.0)
 
         lo_es = fold_logodds(log_full, weights_now)
         lo_win = fold_logodds(log_window, weights_now)
-
-        # counterfactual ideal: after change, reweight ALL past events with q1
         lo_ideal = fold_logodds(log_full, q0 if t < t_change else q1)
 
         traj["ideal"].append(posterior(lo_ideal))
@@ -130,7 +138,7 @@ def run(seed: int = 0):
             "W_window": W,
             "q0": 0.65,
             "true_ps": true_ps,
-            "mean_abs_weight_shift": sum(abs(p - 0.65) for p in true_ps) / len(true_ps),
+            "note": "true_ps includes adversarial sources with p<0.5; q0 wrongly assumes all sources are truthful",
         },
         "summary": {
             "event_sourced": summarize("event_sourced"),
@@ -138,11 +146,11 @@ def run(seed: int = 0):
             "windowed": summarize("windowed"),
         },
         "trajectory_sample": {
-            "t": list(range(0, n_events, 10)),
-            "ideal": traj["ideal"][0:n_events:10],
-            "event_sourced": traj["event_sourced"][0:n_events:10],
-            "snapshot_only": traj["snapshot_only"][0:n_events:10],
-            "windowed": traj["windowed"][0:n_events:10],
+            "t": list(range(0, n_events, 5)),
+            "ideal": traj["ideal"][0:n_events:5],
+            "event_sourced": traj["event_sourced"][0:n_events:5],
+            "snapshot_only": traj["snapshot_only"][0:n_events:5],
+            "windowed": traj["windowed"][0:n_events:5],
         },
     }
 

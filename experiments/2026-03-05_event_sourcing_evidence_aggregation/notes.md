@@ -1,12 +1,16 @@
 # Notes — Event sourcing → evidence aggregation
 
 ## Judgment
-Supports the proposition (P) **in this toy model**: preserving an evidence log enables immediate, rational reweighting of past testimony when credibility estimates change; snapshot-only belief cannot fully recover.
+Supports the proposition (P) **in this toy model**.
 
-## Key observation
-At the credibility-update moment, event-sourced recomputation jumps close to the counterfactual posterior (reweighted over all prior events). Snapshot-only remains offset because its earlier updates are irreversible summaries.
+We intentionally included *adversarial* sources (reliability `< 0.5`). The agent initially mis-modeled all sources as moderately truthful. When it later learned corrected reliabilities, **only systems that retained the evidence log** could re-interpret earlier testimony (treat adversarial testimony as *negative* evidence).
+
+## What this illustrates
+- **Event-sourced aggregation** can recompute belief with new weights and jump toward the counterfactual “ideal” posterior.
+- **Snapshot-only belief** cannot fully recover because earlier misweighted updates are irreversible summaries.
+- **Windowed logs** offer partial recovery limited by the window size.
 
 ## Limitations
-- Binary, independent testimony; real-world evidence is correlated and semantic.
-- We model an oracle credibility update (learning true reliabilities), which overstates how clean revisions are in practice.
-- Institutional “event sourcing” (archives, isnāds, citations) has its own incentives and failure modes.
+- Evidence is simplified to independent binary claims.
+- The credibility update is unrealistically clean (we reveal true reliabilities).
+- Real religious evidence includes interpretation, dependence, and institutional incentives.

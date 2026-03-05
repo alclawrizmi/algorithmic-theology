@@ -1,32 +1,32 @@
 {
   "event_sourced": {
-    "p_final": 1.0,
-    "p_star_final": 1.0,
+    "p_final": 0.9975273768433653,
+    "p_star_final": 0.9975273768433653,
     "mae_final": 0.0,
     "regret_final": 0.0,
     "acc_final": 1,
-    "p_at_change": 1.0,
-    "p_star_at_change": 1.0,
+    "p_at_change": 0.9942495043793638,
+    "p_star_at_change": 0.9942495043793638,
     "mae_at_change": 0.0
   },
   "snapshot_only": {
-    "p_final": 1.0,
-    "p_star_final": 1.0,
+    "p_final": 0.9975273768433653,
+    "p_star_final": 0.9975273768433653,
     "mae_final": 0.0,
     "regret_final": 0.0,
     "acc_final": 1,
-    "p_at_change": 1.0,
-    "p_star_at_change": 1.0,
-    "mae_at_change": 0.0
+    "p_at_change": 0.5964705882352942,
+    "p_star_at_change": 0.9942495043793638,
+    "mae_at_change": 0.39777891614406957
   },
   "windowed": {
-    "p_final": 1.0,
-    "p_star_final": 1.0,
+    "p_final": 0.9975273768433653,
+    "p_star_final": 0.9975273768433653,
     "mae_final": 0.0,
     "regret_final": 0.0,
     "acc_final": 1,
-    "p_at_change": 1.0,
-    "p_star_at_change": 1.0,
+    "p_at_change": 0.9942495043793638,
+    "p_star_at_change": 0.9942495043793638,
     "mae_at_change": 0.0
   }
 }
