@@ -39,3 +39,6 @@ Method:
 
 - 2026-03-04 — gradient methods → epistemic humility: multi-start gradient descent reveals initialization sensitivity and reachable alternative explanations.
   - Result: Distinct basins reachable; humility policy returns UNKNOWN when ensemble spread is high (moderate confidence).
+
+- 2026-03-05 — event sourcing → evidence aggregation: reweighting past testimony needs an evidence log (toy model).
+  - Result: Event-sourced aggregation recovers the counterfactual posterior after credibility updates; snapshot-only cannot (confidence: moderate).

@@ -1,0 +1,32 @@
+{
+  "event_sourced": {
+    "p_final": 1.0,
+    "p_star_final": 1.0,
+    "mae_final": 0.0,
+    "regret_final": 0.0,
+    "acc_final": 1,
+    "p_at_change": 1.0,
+    "p_star_at_change": 1.0,
+    "mae_at_change": 0.0
+  },
+  "snapshot_only": {
+    "p_final": 1.0,
+    "p_star_final": 1.0,
+    "mae_final": 0.0,
+    "regret_final": 0.0,
+    "acc_final": 1,
+    "p_at_change": 1.0,
+    "p_star_at_change": 1.0,
+    "mae_at_change": 0.0
+  },
+  "windowed": {
+    "p_final": 1.0,
+    "p_star_final": 1.0,
+    "mae_final": 0.0,
+    "regret_final": 0.0,
+    "acc_final": 1,
+    "p_at_change": 1.0,
+    "p_star_at_change": 1.0,
+    "mae_at_change": 0.0
+  }
+}

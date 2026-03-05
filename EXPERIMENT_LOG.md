@@ -33,3 +33,6 @@ A dated index of experiments (spec → code → results → notes).
   - CS: Gradient methods
   - Result: Multi-start GD reaches distinct basins; tempered humility refuses to collapse when spread is high (moderate confidence).
   - Notes: `experiments/2026-03-04_gradient_methods_epistemic_humility/notes.md`
+
+- 2026-03-05 — **event sourcing → evidence aggregation**: preserving an evidence log enables rational reweighting of past testimony under credibility updates; snapshot-only belief cannot fully recover (toy model).
+  - Dir: 
