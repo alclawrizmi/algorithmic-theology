@@ -1,0 +1,7138 @@
+{
+  "experiment": "heuristics_metaheuristics_coherence_vs_correspondence",
+  "regimes": [
+    {
+      "params": {
+        "seed": 20260306,
+        "n": 40,
+        "trials": 200,
+        "m_obs": 12,
+        "m_cons": 120,
+        "p_obs_noise": 0.0,
+        "p_constraint_corrupt": 0.0,
+        "w_c": 1.0,
+        "w_o": 3.0,
+        "hc_steps": 2500,
+        "sa_steps": 2500
+      },
+      "summary": {
+        "mean_score_hill_climb": 150.06,
+        "mean_score_sim_anneal": 154.285,
+        "mean_corr_hill_climb": 0.853875,
+        "mean_corr_sim_anneal": 0.953,
+        "pearson_score_vs_corr_hc": 0.9848932308138402,
+        "pearson_score_vs_corr_sa": 0.9990073235623813,
+        "coherence_trap_rate_sa_vs_hc": 0.005
+      },
+      "rows": [
+        {
+          "trial": 0,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 1,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.125
+        },
+        {
+          "trial": 2,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 3,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 0.075
+        },
+        {
+          "trial": 4,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 5,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 6,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 7,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.075,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 8,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 9,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 10,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.25,
+          "corr_sim_anneal": 0.05
+        },
+        {
+          "trial": 11,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 12,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.075
+        },
+        {
+          "trial": 13,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 14,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 15,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 16,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.025,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 17,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 18,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 19,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 20,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 21,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 22,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 23,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 24,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 25,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 26,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 27,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 28,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 29,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 30,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 31,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 32,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 33,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 34,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.225,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 35,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 36,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 37,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 38,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 39,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 40,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 41,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 42,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 43,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.025,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 44,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 45,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 46,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.1
+        },
+        {
+          "trial": 47,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 48,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 49,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 50,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 51,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 52,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 53,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 54,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 55,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 56,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 57,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.225,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 58,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 59,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 60,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 61,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 62,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.15,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 63,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 64,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.2,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 65,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 66,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 67,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 68,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 69,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 70,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.1,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 71,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 72,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 73,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 74,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 75,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 76,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 77,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 78,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 79,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.025,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 80,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 81,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 82,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 83,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.025,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 84,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 85,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.05
+        },
+        {
+          "trial": 86,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 87,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 88,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 89,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 90,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 91,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 92,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 93,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 94,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.025,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 95,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 96,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 97,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 98,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 99,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 100,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.1,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 101,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 102,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 103,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 104,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 105,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 106,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.1,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 107,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 108,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 109,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 110,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.15,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 111,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 112,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.2,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 113,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 114,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 115,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 116,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 117,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 118,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 119,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 120,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 121,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 122,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 123,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 124,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 125,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 126,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 127,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 128,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 129,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.3,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 130,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 131,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 132,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 133,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 134,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 135,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.025
+        },
+        {
+          "trial": 136,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 137,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.15,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 138,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 139,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 140,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 141,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 142,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 143,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.075,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 144,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 145,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 146,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 147,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 148,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 149,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.25,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 150,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 151,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 152,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 153,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 154,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 155,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 156,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.025,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 157,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 158,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.475,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 159,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 160,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 161,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 162,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 163,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 164,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 165,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.0
+        },
+        {
+          "trial": 166,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.25,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 167,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 168,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 169,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 170,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 171,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 172,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.025,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 173,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.2
+        },
+        {
+          "trial": 174,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 175,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 176,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 177,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 178,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 179,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 180,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 181,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 182,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 183,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 184,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 185,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 186,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.025
+        },
+        {
+          "trial": 187,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 188,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 189,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 190,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 191,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 192,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 193,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 194,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 195,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 196,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.175,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 197,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 198,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 199,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "seed": 20260307,
+        "n": 40,
+        "trials": 200,
+        "m_obs": 12,
+        "m_cons": 120,
+        "p_obs_noise": 0.1,
+        "p_constraint_corrupt": 0.0,
+        "w_c": 1.0,
+        "w_o": 3.0,
+        "hc_steps": 2500,
+        "sa_steps": 2500
+      },
+      "summary": {
+        "mean_score_hill_climb": 147.835,
+        "mean_score_sim_anneal": 150.055,
+        "mean_corr_hill_climb": 0.859,
+        "mean_corr_sim_anneal": 0.911125,
+        "pearson_score_vs_corr_hc": 0.9190616110526819,
+        "pearson_score_vs_corr_sa": 0.9300341409964104,
+        "coherence_trap_rate_sa_vs_hc": 0.005
+      },
+      "rows": [
+        {
+          "trial": 0,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 1,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 2,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 3,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 4,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.15,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 5,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 6,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 7,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 8,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 9,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 0.25,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 10,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 11,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 12,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 13,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 14,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 15,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 16,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 17,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.275
+        },
+        {
+          "trial": 18,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.075,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 19,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 20,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 21,
+          "score_hill_climb": 147.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 22,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.0
+        },
+        {
+          "trial": 23,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.175,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 24,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 141.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 25,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 26,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.125,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 27,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 28,
+          "score_hill_climb": 149.0,
+          "score_sim_anneal": 149.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 29,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 30,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 31,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 32,
+          "score_hill_climb": 147.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 33,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 34,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.05
+        },
+        {
+          "trial": 35,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 36,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 37,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 38,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 39,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 40,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 41,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 42,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 43,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 44,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.125
+        },
+        {
+          "trial": 45,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 46,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 47,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 48,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 49,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 50,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 51,
+          "score_hill_climb": 154.0,
+          "score_sim_anneal": 154.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 52,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 53,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 54,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 55,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 56,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.0
+        },
+        {
+          "trial": 57,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 58,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 59,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 0.075
+        },
+        {
+          "trial": 60,
+          "score_hill_climb": 147.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 61,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 62,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 63,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 64,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.075
+        },
+        {
+          "trial": 65,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 66,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 67,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 68,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 69,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 70,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 0.125,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 71,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 72,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 73,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 74,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 75,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 76,
+          "score_hill_climb": 144.0,
+          "score_sim_anneal": 144.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 77,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 78,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.125,
+          "corr_sim_anneal": 0.1
+        },
+        {
+          "trial": 79,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 80,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 81,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 82,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 83,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 84,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 85,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 86,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 87,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 88,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 89,
+          "score_hill_climb": 147.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.05
+        },
+        {
+          "trial": 90,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 91,
+          "score_hill_climb": 147.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 92,
+          "score_hill_climb": 147.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 93,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 94,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 95,
+          "score_hill_climb": 148.0,
+          "score_sim_anneal": 148.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 96,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 97,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.025,
+          "corr_sim_anneal": 0.025
+        },
+        {
+          "trial": 98,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 99,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 100,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.025
+        },
+        {
+          "trial": 101,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 0.275,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 102,
+          "score_hill_climb": 138.0,
+          "score_sim_anneal": 142.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 103,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 104,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 105,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 106,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 107,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.1
+        },
+        {
+          "trial": 108,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.2,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 109,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 110,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 111,
+          "score_hill_climb": 154.0,
+          "score_sim_anneal": 154.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 112,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 113,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.1,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 114,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 115,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 116,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 117,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 118,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 119,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 120,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.0
+        },
+        {
+          "trial": 121,
+          "score_hill_climb": 114.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.2,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 122,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 123,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 124,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 125,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 126,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 127,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 128,
+          "score_hill_climb": 154.0,
+          "score_sim_anneal": 154.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 129,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 130,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 131,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 132,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 133,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 134,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 135,
+          "score_hill_climb": 151.0,
+          "score_sim_anneal": 151.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 136,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.15,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 137,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 138,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 139,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 140,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 141,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 142,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 143,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.075,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 144,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 145,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 146,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 147,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 148,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.0,
+          "corr_sim_anneal": 0.025
+        },
+        {
+          "trial": 149,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 150,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.125,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 151,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 152,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 153,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 154,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 155,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 156,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 157,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 158,
+          "score_hill_climb": 147.0,
+          "score_sim_anneal": 147.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 159,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 160,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 161,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.25,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 162,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.325,
+          "corr_sim_anneal": 0.05
+        },
+        {
+          "trial": 163,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 164,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.05,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 165,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 166,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 167,
+          "score_hill_climb": 148.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 168,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 169,
+          "score_hill_climb": 151.0,
+          "score_sim_anneal": 151.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 170,
+          "score_hill_climb": 154.0,
+          "score_sim_anneal": 154.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 171,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.075
+        },
+        {
+          "trial": 172,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 173,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 174,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 175,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 176,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 177,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 178,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 179,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 180,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 181,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 0.225,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 182,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 183,
+          "score_hill_climb": 150.0,
+          "score_sim_anneal": 150.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 184,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 185,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 186,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 187,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 188,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 189,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 190,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 191,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 192,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 193,
+          "score_hill_climb": 147.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.05
+        },
+        {
+          "trial": 194,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 195,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.05
+        },
+        {
+          "trial": 196,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 146.0,
+          "corr_hill_climb": 0.45,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 197,
+          "score_hill_climb": 153.0,
+          "score_sim_anneal": 153.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 198,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 199,
+          "score_hill_climb": 156.0,
+          "score_sim_anneal": 156.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        }
+      ]
+    },
+    {
+      "params": {
+        "seed": 20260308,
+        "n": 40,
+        "trials": 200,
+        "m_obs": 12,
+        "m_cons": 120,
+        "p_obs_noise": 0.0,
+        "p_constraint_corrupt": 0.2,
+        "w_c": 1.0,
+        "w_o": 3.0,
+        "hc_steps": 2500,
+        "sa_steps": 2500
+      },
+      "summary": {
+        "mean_score_hill_climb": 130.875,
+        "mean_score_sim_anneal": 132.895,
+        "mean_corr_hill_climb": 0.86675,
+        "mean_corr_sim_anneal": 0.91825,
+        "pearson_score_vs_corr_hc": 0.8456255637339686,
+        "pearson_score_vs_corr_sa": 0.640658850325982,
+        "coherence_trap_rate_sa_vs_hc": 0.035
+      },
+      "rows": [
+        {
+          "trial": 0,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 1,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 2,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 3,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 4,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 5,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 6,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 7,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 8,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 9,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 10,
+          "score_hill_climb": 141.0,
+          "score_sim_anneal": 141.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 11,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 12,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 13,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 14,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 15,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 16,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 17,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 18,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 19,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 20,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 21,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 22,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 23,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 24,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 25,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 26,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 27,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 28,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 29,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 30,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 31,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 32,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 33,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 34,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 35,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 36,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 37,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 38,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 39,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 40,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 41,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 42,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 43,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 44,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 45,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 46,
+          "score_hill_climb": 113.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 47,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 48,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 49,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 50,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 51,
+          "score_hill_climb": 138.0,
+          "score_sim_anneal": 138.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 52,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 53,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 54,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 55,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 56,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 57,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 58,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 59,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 60,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 61,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 62,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 63,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 64,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 65,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 66,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 67,
+          "score_hill_climb": 141.0,
+          "score_sim_anneal": 141.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 68,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 69,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 70,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 71,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 72,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.45,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 73,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 74,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 75,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 76,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 77,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 78,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 79,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 80,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 81,
+          "score_hill_climb": 138.0,
+          "score_sim_anneal": 138.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 82,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 83,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 84,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 85,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 86,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 87,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 88,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 89,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 90,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 91,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 92,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 93,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 94,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 95,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 96,
+          "score_hill_climb": 138.0,
+          "score_sim_anneal": 138.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 97,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 98,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 99,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 100,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 101,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 102,
+          "score_hill_climb": 138.0,
+          "score_sim_anneal": 138.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 103,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 104,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 105,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 140.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 106,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 107,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 108,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 109,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 110,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 111,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 112,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 113,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 114,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 115,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 116,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 117,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 118,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 119,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 120,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 121,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 122,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 123,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 124,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 125,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 126,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 127,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 128,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 129,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 130,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 131,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 132,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 133,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 134,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 135,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 136,
+          "score_hill_climb": 111.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.4,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 137,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 138,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 139,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 140,
+          "score_hill_climb": 113.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.275,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 141,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 142,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 143,
+          "score_hill_climb": 141.0,
+          "score_sim_anneal": 117.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 144,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 145,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 146,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 147,
+          "score_hill_climb": 141.0,
+          "score_sim_anneal": 141.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 148,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 149,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 150,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 151,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 152,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 153,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 154,
+          "score_hill_climb": 140.0,
+          "score_sim_anneal": 140.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 155,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 156,
+          "score_hill_climb": 109.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 157,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 158,
+          "score_hill_climb": 138.0,
+          "score_sim_anneal": 138.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 159,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 160,
+          "score_hill_climb": 138.0,
+          "score_sim_anneal": 138.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 161,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 162,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 138.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 163,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 164,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 165,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 166,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 167,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 168,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 169,
+          "score_hill_climb": 113.0,
+          "score_sim_anneal": 141.0,
+          "corr_hill_climb": 0.35,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 170,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 171,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 172,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 173,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 174,
+          "score_hill_climb": 142.0,
+          "score_sim_anneal": 142.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 175,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 176,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 177,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 178,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 179,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 180,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 181,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 182,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 183,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 184,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 185,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 186,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 187,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 188,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 189,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 190,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 191,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 192,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 193,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 194,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 195,
+          "score_hill_climb": 140.0,
+          "score_sim_anneal": 140.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 196,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 197,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 198,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 199,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.975
+        }
+      ]
+    },
+    {
+      "params": {
+        "seed": 20260309,
+        "n": 40,
+        "trials": 200,
+        "m_obs": 12,
+        "m_cons": 120,
+        "p_obs_noise": 0.1,
+        "p_constraint_corrupt": 0.2,
+        "w_c": 1.0,
+        "w_o": 3.0,
+        "hc_steps": 2500,
+        "sa_steps": 2500
+      },
+      "summary": {
+        "mean_score_hill_climb": 128.715,
+        "mean_score_sim_anneal": 130.57,
+        "mean_corr_hill_climb": 0.816125,
+        "mean_corr_sim_anneal": 0.87875,
+        "pearson_score_vs_corr_hc": 0.7954067641562155,
+        "pearson_score_vs_corr_sa": 0.6784104877990184,
+        "coherence_trap_rate_sa_vs_hc": 0.025
+      },
+      "rows": [
+        {
+          "trial": 0,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.4,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 1,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 2,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 3,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.325
+        },
+        {
+          "trial": 4,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 5,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 6,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 7,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 8,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.4
+        },
+        {
+          "trial": 9,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 10,
+          "score_hill_climb": 143.0,
+          "score_sim_anneal": 143.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 11,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 12,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 13,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 14,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 15,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 16,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 117.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.325
+        },
+        {
+          "trial": 17,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 18,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 19,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 20,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 21,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.325,
+          "corr_sim_anneal": 0.425
+        },
+        {
+          "trial": 22,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 23,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 24,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 25,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 26,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 27,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 28,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 29,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 30,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 31,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 118.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.575
+        },
+        {
+          "trial": 32,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 33,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 34,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 35,
+          "score_hill_climb": 141.0,
+          "score_sim_anneal": 141.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 36,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 37,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 38,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 39,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 40,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 41,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 42,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 43,
+          "score_hill_climb": 114.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 44,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.3,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 45,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 46,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 47,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 48,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 115.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.275
+        },
+        {
+          "trial": 49,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 50,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 51,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 52,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 53,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 54,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 55,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 56,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 57,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 58,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 59,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 60,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 61,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.45,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 62,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 63,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 64,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 65,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 66,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 67,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.275,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 68,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.475,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 69,
+          "score_hill_climb": 143.0,
+          "score_sim_anneal": 143.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 70,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 71,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 72,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 73,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 74,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 75,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 76,
+          "score_hill_climb": 113.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 77,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 78,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 79,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 80,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 81,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.3,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 82,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 83,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 84,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 85,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 86,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 87,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 88,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 89,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 90,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 91,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 92,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 93,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 94,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 95,
+          "score_hill_climb": 138.0,
+          "score_sim_anneal": 138.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 96,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 97,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 98,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 99,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 100,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 101,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 102,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 103,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 104,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 105,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.225,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 106,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 107,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.425,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 108,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 109,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 110,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 111,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 112,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 113,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 114,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.325,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 115,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 116,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 117,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 118,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 119,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 120,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.4,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 121,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 122,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 123,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 124,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 125,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 126,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 127,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 128,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 129,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 130,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 131,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 132,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 133,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 134,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 135,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 136,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 137,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 138,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 139,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 140,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 141,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 142,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 143,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 144,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 145,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 146,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 147,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 148,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 149,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 150,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 151,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.225,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 152,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 153,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 154,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 155,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 156,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 157,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 158,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 159,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 160,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 161,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 162,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 163,
+          "score_hill_climb": 112.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.275,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 164,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 165,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 166,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 167,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 168,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 169,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 170,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.475,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 171,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 172,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 173,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.25,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 174,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 175,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 176,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 177,
+          "score_hill_climb": 131.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 178,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 134.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 179,
+          "score_hill_climb": 133.0,
+          "score_sim_anneal": 133.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 180,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 181,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 182,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 183,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 184,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 185,
+          "score_hill_climb": 113.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.3,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 186,
+          "score_hill_climb": 136.0,
+          "score_sim_anneal": 136.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 187,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 188,
+          "score_hill_climb": 132.0,
+          "score_sim_anneal": 132.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 189,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 190,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.9
+        },
+        {
+          "trial": 191,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.975,
+          "corr_sim_anneal": 0.975
+        },
+        {
+          "trial": 192,
+          "score_hill_climb": 130.0,
+          "score_sim_anneal": 131.0,
+          "corr_hill_climb": 0.875,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 193,
+          "score_hill_climb": 134.0,
+          "score_sim_anneal": 130.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 194,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 141.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 1.0
+        },
+        {
+          "trial": 195,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 196,
+          "score_hill_climb": 139.0,
+          "score_sim_anneal": 139.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.925
+        },
+        {
+          "trial": 197,
+          "score_hill_climb": 137.0,
+          "score_sim_anneal": 137.0,
+          "corr_hill_climb": 1.0,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 198,
+          "score_hill_climb": 135.0,
+          "score_sim_anneal": 135.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.95
+        },
+        {
+          "trial": 199,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.825
+        }
+      ]
+    },
+    {
+      "params": {
+        "seed": 20260310,
+        "n": 40,
+        "trials": 200,
+        "m_obs": 12,
+        "m_cons": 120,
+        "p_obs_noise": 0.2,
+        "p_constraint_corrupt": 0.35,
+        "w_c": 1.0,
+        "w_o": 3.0,
+        "hc_steps": 2500,
+        "sa_steps": 2500
+      },
+      "summary": {
+        "mean_score_hill_climb": 121.3,
+        "mean_score_sim_anneal": 122.67,
+        "mean_corr_hill_climb": 0.648875,
+        "mean_corr_sim_anneal": 0.663125,
+        "pearson_score_vs_corr_hc": 0.2723617116545372,
+        "pearson_score_vs_corr_sa": 0.16713400372684994,
+        "coherence_trap_rate_sa_vs_hc": 0.175
+      },
+      "rows": [
+        {
+          "trial": 0,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 1,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.475,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 2,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 3,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 4,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 5,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 6,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 7,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 8,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 9,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 10,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 11,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.5
+        },
+        {
+          "trial": 12,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 13,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 14,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 15,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 16,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 17,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 18,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.925,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 19,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 118.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 20,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 21,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 22,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.575
+        },
+        {
+          "trial": 23,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 24,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.575
+        },
+        {
+          "trial": 25,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 26,
+          "score_hill_climb": 108.0,
+          "score_sim_anneal": 116.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 27,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 28,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.425
+        },
+        {
+          "trial": 29,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.425,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 30,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 117.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 31,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 32,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 33,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 116.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.4
+        },
+        {
+          "trial": 34,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 35,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 36,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 37,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.325
+        },
+        {
+          "trial": 38,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 39,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 40,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 41,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 42,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 43,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 44,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 45,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 46,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 47,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 48,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 116.0,
+          "corr_hill_climb": 0.325,
+          "corr_sim_anneal": 0.5
+        },
+        {
+          "trial": 49,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 50,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 51,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.475,
+          "corr_sim_anneal": 0.425
+        },
+        {
+          "trial": 52,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 53,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.425
+        },
+        {
+          "trial": 54,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.45,
+          "corr_sim_anneal": 0.425
+        },
+        {
+          "trial": 55,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 56,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 57,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 58,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 59,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 60,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 61,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 62,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 63,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 64,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 65,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 66,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 67,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 68,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 69,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 70,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 71,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 72,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 73,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 74,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 75,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 118.0,
+          "corr_hill_climb": 0.375,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 76,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 118.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 77,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 118.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 78,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 79,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 80,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 81,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 117.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.5
+        },
+        {
+          "trial": 82,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 83,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 84,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.425,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 85,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.275,
+          "corr_sim_anneal": 0.3
+        },
+        {
+          "trial": 86,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.35,
+          "corr_sim_anneal": 0.45
+        },
+        {
+          "trial": 87,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.5
+        },
+        {
+          "trial": 88,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 89,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.5
+        },
+        {
+          "trial": 90,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 91,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 92,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 93,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 94,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 95,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.95,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 96,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 97,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 98,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.375
+        },
+        {
+          "trial": 99,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 100,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 101,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.85,
+          "corr_sim_anneal": 0.575
+        },
+        {
+          "trial": 102,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 103,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 104,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 105,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 106,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.475
+        },
+        {
+          "trial": 107,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 108,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 109,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.475
+        },
+        {
+          "trial": 110,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.5
+        },
+        {
+          "trial": 111,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 112,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 113,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 114,
+          "score_hill_climb": 127.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 115,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 116,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 117,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 118,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 119,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 120,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 121,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 122,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 123,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 124,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 125,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 126,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 127,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 128,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.4
+        },
+        {
+          "trial": 129,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 130,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 131,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 132,
+          "score_hill_climb": 129.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 133,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 134,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.45,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 135,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 136,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 137,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 138,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 139,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 115.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 140,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.55,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 141,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.525
+        },
+        {
+          "trial": 142,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 119.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 143,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 129.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 144,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 145,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 146,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 147,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 118.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 148,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 149,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 150,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 151,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 152,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.475,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 153,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 154,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 155,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 156,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.9,
+          "corr_sim_anneal": 0.85
+        },
+        {
+          "trial": 157,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 158,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.8
+        },
+        {
+          "trial": 159,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 160,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 161,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 162,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 117.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 163,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 164,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.775,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 165,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.825,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 166,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 120.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 167,
+          "score_hill_climb": 119.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 168,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 126.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 169,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.575,
+          "corr_sim_anneal": 0.575
+        },
+        {
+          "trial": 170,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 171,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.475,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 172,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.4
+        },
+        {
+          "trial": 173,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 117.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.875
+        },
+        {
+          "trial": 174,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.725
+        },
+        {
+          "trial": 175,
+          "score_hill_climb": 126.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 176,
+          "score_hill_climb": 116.0,
+          "score_sim_anneal": 117.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 177,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.575
+        },
+        {
+          "trial": 178,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.4,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 179,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 180,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 181,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.425,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 182,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.625
+        },
+        {
+          "trial": 183,
+          "score_hill_climb": 118.0,
+          "score_sim_anneal": 127.0,
+          "corr_hill_climb": 0.6,
+          "corr_sim_anneal": 0.75
+        },
+        {
+          "trial": 184,
+          "score_hill_climb": 128.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 185,
+          "score_hill_climb": 113.0,
+          "score_sim_anneal": 118.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.775
+        },
+        {
+          "trial": 186,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.525,
+          "corr_sim_anneal": 0.825
+        },
+        {
+          "trial": 187,
+          "score_hill_climb": 121.0,
+          "score_sim_anneal": 124.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.55
+        },
+        {
+          "trial": 188,
+          "score_hill_climb": 115.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.625,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 189,
+          "score_hill_climb": 117.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.65,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 190,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 122.0,
+          "corr_hill_climb": 0.725,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 191,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.8,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 192,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 128.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 193,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.65
+        },
+        {
+          "trial": 194,
+          "score_hill_climb": 123.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.5,
+          "corr_sim_anneal": 0.475
+        },
+        {
+          "trial": 195,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.675,
+          "corr_sim_anneal": 0.7
+        },
+        {
+          "trial": 196,
+          "score_hill_climb": 125.0,
+          "score_sim_anneal": 125.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.675
+        },
+        {
+          "trial": 197,
+          "score_hill_climb": 122.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 198,
+          "score_hill_climb": 120.0,
+          "score_sim_anneal": 121.0,
+          "corr_hill_climb": 0.7,
+          "corr_sim_anneal": 0.6
+        },
+        {
+          "trial": 199,
+          "score_hill_climb": 124.0,
+          "score_sim_anneal": 123.0,
+          "corr_hill_climb": 0.75,
+          "corr_sim_anneal": 0.7
+        }
+      ]
+    }
+  ],
+  "notes": {
+    "interpretation_hint": "Coherence proxy mixes constraint satisfaction with observation-fit; correspondence is measured against hidden truth."
+  }
+}

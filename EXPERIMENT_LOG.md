@@ -36,3 +36,8 @@ A dated index of experiments (spec → code → results → notes).
 
 - 2026-03-05 — **event sourcing → evidence aggregation**: preserving an evidence log enables rational reweighting of past testimony under credibility updates; snapshot-only belief cannot fully recover (toy model).
   - Dir: 
+  - Directory: `experiments/2026-03-05_event_sourcing_evidence_aggregation/`
+
+## 2026-03-06 — heuristics/metaheuristics → coherence vs correspondence
+- Directory: `experiments/2026-03-06_heuristics_metaheuristics_coherence_vs_correspondence/`
+- Summary: Heuristic/metaheuristic search maximizes a coherence proxy (constraint satisfaction + observation-fit). Under constraint corruption and observation noise, proxy score weakly correlates with truth-correspondence and “coherence traps” appear (high coherence, low correspondence).

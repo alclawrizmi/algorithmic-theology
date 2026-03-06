@@ -42,3 +42,6 @@ Method:
 
 - 2026-03-05 — event sourcing → evidence aggregation: reweighting past testimony needs an evidence log (toy model).
   - Result: Event-sourced aggregation recovers the counterfactual posterior after credibility updates; snapshot-only cannot (confidence: moderate).
+
+- 2026-03-06 — heuristics/metaheuristics → coherence vs correspondence: optimizing a coherence proxy can Goodhart away from truth under misspecified constraints/noisy testimony.
+  - Result: as corruption rises, coherence-vs-truth correlation collapses; coherence traps appear (toy model; moderate confidence).
